@@ -1,0 +1,29 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-08-23 16:52:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2020-08-23 16:52:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2020-08-23 16:52:51 +0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-08-23 16:28:07 +0700",
+      "minecraft:mountains": "2020-08-23 16:28:27 +0700",
+      "minecraft:river": "2020-08-23 16:52:59 +0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2578
+}

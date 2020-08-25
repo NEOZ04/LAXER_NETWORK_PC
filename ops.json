@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "f71195bc-9344-32f0-9bf0-80a750f10c77",
+    "name": "Darujiizan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "75173cdc-233b-3fbf-8cab-f5ea1ae763b9",
+    "name": "Darujizan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e3e370d3-5497-3520-9325-f80769e18dbb",
+    "name": "NEOZ04",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
