@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 /plugins_dev/
+=======
+plugins_dev/*
+.gitignore
+>>>>>>> 4e4cb9597860122758f0172ffca51058d1e02855
