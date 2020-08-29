@@ -7,6 +7,9 @@ commands:
     spawn:
       description: Back to spawn
       usage: /spawn
+    wt:
+      description: World teleport
+      usage: /wt <world_name>
     test:
       description: An example command
       usage: /test

@@ -11,7 +11,15 @@ options:
   useEndPortalHandler: false
   useportalhandler: false
   useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
 worlds:
+  survival:
+    seed: -999988856042221695
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: false
   world:
     seed: -9114062233078831222
     worldgen: Normal

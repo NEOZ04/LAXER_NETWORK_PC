@@ -1,6 +1,8 @@
 package laxer;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Location;
+import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
@@ -32,6 +34,21 @@ public class Main extends JavaPlugin {
 					((Player) sender).teleport(this.getServer().getWorld("world").getSpawnLocation());
 					sender.sendMessage(ChatColor.GREEN + "Teleport to spawn...");
 					return true;
+				}
+				sender.sendMessage(ChatColor.RED + "Please use this command in game.");
+				break;
+			case "wt":
+				if (sender instanceof Player) {
+					if (!args[0].isEmpty()) {
+						if (this.getServer().getWorld(args[0]) instanceof World) {
+							 World world = this.getServer().getWorld(args[0]);
+							 ((Player) sender).teleport(world.getSpawnLocation());
+								sender.sendMessage(ChatColor.GREEN + "Teleport to " + world.getName() + ".");
+							 return true;
+						}
+						sender.sendMessage(ChatColor.RED + "World not found.");
+						return false;
+					}
 				}
 				sender.sendMessage(ChatColor.RED + "Please use this command in game.");
 				break;
