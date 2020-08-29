@@ -1,0 +1,12 @@
+per-world-inventories: false
+per-world-stats: false
+per-world-inventory-grouping: false
+per-world-kit-grouping: false
+use-respawnWorld: false
+use-first-join-spawn: false
+track-previous-locations: true
+prefix-chat: false
+Universe-Ends:
+  end-per-overworld: true
+Universe-Nethers:
+  nether-per-overworld: true
