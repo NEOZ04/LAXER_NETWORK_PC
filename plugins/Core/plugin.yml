@@ -1,0 +1,11 @@
+main: laxer.Main
+name: Core
+version: 1.0
+author: NEOZ04
+description: The Core Plugin For Laxer Network
+commands:
+    test:
+      description: An example command
+      usage: /test
+      permission: laxer.test
+      permission-message: You don't have the laxer.test permission.
