@@ -1,1 +1,2 @@
-plugins_dev
+plugins_dev/*
+.gitignore
