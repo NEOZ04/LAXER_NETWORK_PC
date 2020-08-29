@@ -1,0 +1,4 @@
+#By default, the plugin will use the world name when prefixes are enabled.
+#To use a custom prefix to a world, follow this format.
+#world name: "[Prefix]"
+#world_nether: "&0[&4Nether&0]&f"

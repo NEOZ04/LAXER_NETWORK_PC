@@ -4,6 +4,9 @@ version: 1.0
 author: NEOZ04
 description: The Core Plugin For Laxer Network
 commands:
+    spawn:
+      description: Back to spawn
+      usage: /spawn
     test:
       description: An example command
       usage: /test
