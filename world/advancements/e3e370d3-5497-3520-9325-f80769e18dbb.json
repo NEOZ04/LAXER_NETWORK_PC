@@ -57,7 +57,9 @@
     "criteria": {
       "minecraft:forest": "2020-08-23 16:28:07 +0700",
       "minecraft:mountains": "2020-08-23 16:28:27 +0700",
-      "minecraft:river": "2020-08-23 16:52:59 +0700"
+      "minecraft:river": "2020-08-23 16:52:59 +0700",
+      "minecraft:wooded_hills": "2020-08-29 14:57:46 +0700",
+      "minecraft:swamp": "2020-08-29 14:47:58 +0700"
     },
     "done": false
   },
